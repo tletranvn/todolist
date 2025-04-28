@@ -15,7 +15,7 @@ function addTask(){
         span.innerHTML = "\u00d7"; //to cross the line
         li.appendChild(span);
     }
-    inputBox.value = ''; // 👉 clear the input right after it is in the list
+    inputBox.value = ''; // clear the input right after it is on the list
     saveTasks(); // Save tasks every time, otherwise the list is deleted when refresh    
 }
 
