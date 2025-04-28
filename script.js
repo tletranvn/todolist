@@ -12,7 +12,7 @@ function addTask(){
         
         //to add a cross icon to delete the task :
         let span = document.createElement("span");
-        span.innerHTML = "\u00d7"; //to cross the lign
+        span.innerHTML = "\u00d7"; //to cross the line
         li.appendChild(span);
     }
     inputBox.value = ''; // 👉 clear the input right after it is in the list
